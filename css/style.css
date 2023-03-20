@@ -1439,7 +1439,7 @@ a.brand:focus{
 }
 
 .project-item:hover .project-hover{
-  background-color: rgba(175,0,0,0.85);
+  background-color: rgba(206,224,2,0.85);
 }
 
 .project-item:hover .project-hover .project-title{
@@ -3420,7 +3420,7 @@ a.brand:focus{
   top:0;
   width: 100%;
   height: 100%;
-  background: rgba(175,0,0,0.85);
+  background: rgba(206,224,2,0.85);
   -webkit-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
@@ -3643,6 +3643,7 @@ a.brand:focus{
   -ms-flex: 0 0 100%;
   flex: 0 0 100%;
 }
+
 
 
 /* ------------------------------------------------------------------------------- */
