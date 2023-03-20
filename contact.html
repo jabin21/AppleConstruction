@@ -1,3 +1,4 @@
+
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
@@ -7,7 +8,7 @@
 <meta name="author" content="">
 
 <!-- Favicons -->
-<link rel="shortcut icon" href="titlelogo2.png">
+<link rel="shortcut icon" href="favicon.png">
 <link rel="apple-touch-icon" href="titlelogo2.png">
 <link rel="apple-touch-icon" sizes="72x72" href="titlelogo1.png">
 <link rel="apple-touch-icon" sizes="114x114" href="titlelogo.png">
@@ -30,12 +31,12 @@
 
     <div class="menu"> 
       <span class="close-menu icon-cross2 right-boxed"></span>
-      <div class="menu-lang right-boxed">
+      <div class="menu-lang right-boxed">        
       </div>
       <ul class="menu-list right-boxed">
-        <li class="active">
+        <li>
           <a  href="index.html">Home</a>
-          <ul>
+          <ul>            
             <li><a href="index.html">Home</a></li>
           </ul>
         </li>
@@ -47,16 +48,24 @@
           </ul>
         </li>
         <li>
+          <a href="#">News</a>
+          <ul>
+            <li><a href="news-grid.html">Grid</a></li>
+            <li><a href="news-listing.html">Listing</a></li>
+            <li><a href="news-masonry.html">Masonry</a></li>
+          </ul>
+        </li>
+        <li>
           <a href="#">Booking</a>
           <ul>
             <li><a href="appointment.html">Appointment</a></li>
           </ul>
         </li>
-        <li>
+        <li class="active">
           <a href="#">Contact</a>
           <ul>
             <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li class="active"><a href="contact.html">Contact</a></li>
           </ul>
         </li>
       </ul>
@@ -68,7 +77,7 @@
           <a href="" class="icon ion-social-linkedin"></a>
           <a href="" class="icon ion-social-dribbble-outline"></a>
         </div>
-        <div class="copy">© Powered by Infinity 2023<br> Design by JabinR</div>
+        <div class="copy">© Infinity 2023. All Rights Reseverd<br> Design by JabinR</div>
       </div>
     </div>
 
@@ -81,7 +90,7 @@
         <span class="icon-bar"></span>
       </button>
 
-      <a class="brand" href="index.html">
+      <a class="brand" href="#">
         <img alt="" src="images/logoicon.png">
         <div class="brand-info">
           <div class="brand-name">Jacob Apple</div>
@@ -99,13 +108,27 @@
 
       <div class="navbar-spacer hidden-sm hidden-xs"></div>
 
-      <address class="navbar-address hidden-sm hidden-xs">call us: <span class="text-dark">+1 (401) 200-0696</span></address>
+      <address class="navbar-address hidden-sm hidden-xs">call us: <span class="text-dark">(+080) 9684 32 45 789</span></address>
     </header>
     
     <!-- Pageheader -->
     
     <main class="page-header-3">
       <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="title-hr"></div>
+          </div>
+          <div class="col-md-8 col-lg-6"><h1>Enjoy Coffee With Us</h1></div>
+        </div>
+      </div>
+    </main>
+
+    <div class="content">
+      <div id="map" class="map"></div>
+      <div class="page-inner">
+        <section>
+          <div class="container">
             <div class="row">
               <div class="col-md-3">
                 <div class="section-info">
@@ -113,32 +136,17 @@
                   <div class="info-title">Keep in touch</div>
                 </div>
               </div>
-          <div class="col-md-8 col-lg-6"><h1>Contact Us!</h1></div>
-        </div>
-      </div>
-    </main>
-
-    <div class="content">      
-      <div class="page-inner">
-        <section>
-          <div class="container">
-            <div class="row">
-              <div class="col-md-3">
-                <div class="section-info">
-                  
-                </div>
-              </div>
               <div class="col-md-9">
                 <div class="row-contact row">
                   <div class="col-contact col-lg-6">
-                    <h3 class="contact-title contact-top">Based in Bristol County, <span>Rhode Island</span></h3>
-                    <p class="contact-address text-muted"><strong>...Address Goes Here...</strong></p>
-                    <p class="contact-row"><strong class="text-dark">Email:</strong> email goes here</p>
-                    
+                    <h3 class="contact-title contact-top">Melbourne, <span>Australia</span></h3>
+                    <p class="contact-address text-muted"><strong>269 King Str, 05th Floor, Utral Hosue Building, Melbourne, VIC 3000, Australia.</strong></p>
+                    <p class="contact-row"><strong class="text-dark">Email:</strong> infor@bauhaus.co</p>
+                    <p class="contact-row"><strong class="text-dark">Skype:</strong>  bauhaus.arc</p>
                   </div>
                   <div class="col-contact col-lg-6">
                     <p class="contact-top"><strong class="text-muted">Call directly:</strong></p>
-                    <p class="phone-lg text-dark">+1 (401) 601 0106</p>
+                    <p class="phone-lg text-dark">+99 (0) 344 956 4050</p>
                     <p class="text-muted"><strong class="text-dark">Work Hours</strong><br>
                      Monday - Friday : 08h00 - 17h30<br>
                     Saturday: 08h00 - 12h00, Sunday off work</p>
@@ -163,28 +171,30 @@
               <div class="col-md-3">
                 <div class="section-info">
                   <div class="title-hr"></div>
-                  <div class="info-title">Leave a Message</div>
+                  <div class="info-title">You need help</div>
                 </div>
               </div>
-              <iframe 
-          src="https://api.leadconnectorhq.com/widget/form/rifxqjy2oHDcJpl5TBXH" 
-          style="width:100%;height:100%;border:none;border-radius:10px"
-          id="inline-rifxqjy2oHDcJpl5TBXH" 
-        data-layout="{'id':'INLINE'}"
-        data-trigger-type="alwaysShow"
-        data-trigger-value=""
-        data-activation-type="alwaysActivated"
-        data-activation-value=""
-        data-deactivation-type="neverDeactivate"
-        data-deactivation-value=""
-        data-form-name="Message form"
-        data-height="605"
-        data-layout-iframe-id="inline-rifxqjy2oHDcJpl5TBXH"
-        data-form-id="rifxqjy2oHDcJpl5TBXH"
-      >
-        </iframe>
-        <script src="https://link.msgsndr.com/js/form_embed.js"></script>
-      
+              <div class="col-md-9">
+                <form class="js-form">
+                  <div class="row">
+                    <div class="form-group col-sm-6 col-lg-4">
+                      <input class="input-gray" type="text" name="name" required placeholder="Name*">
+                    </div>
+                    <div class="form-group col-sm-6 col-lg-4">
+                      <input class="input-gray" type="email" name="email" placeholder="Email">
+                    </div>
+                    <div class="form-group col-sm-12 col-lg-4">
+                      <input class="input-gray" type="text" name="subject" placeholder="Subject (Optinal)">
+                    </div>
+                    <div class="form-group col-sm-12">
+                      <textarea class="input-gray" name="message"  required  placeholder="Message*"></textarea>
+                    </div>
+                    <div class="col-sm-12"><button type="submit" class="btn-upper btn-yellow btn">Send Message</button></div>
+                  </div>
+                  <div class="success-message"><i class="fa fa-check text-primary"></i> Thank you!. Your message is successfully sent...</div>
+                  <div class="error-message">We're sorry, but something went wrong</div>
+                </form>
+              </div>
             </div>
           </div>
         </section>
@@ -205,7 +215,7 @@
           </a>
         </div>
         <div class="flex-item">
-          <div class="inline-block">© Powered by Infinity 2023<br>All Rights Resevered</div>
+          <div class="inline-block">© Infinity 2023<br>All Rights Resevered</div>
         </div>
         <div class="flex-item">
           <ul>
@@ -213,16 +223,19 @@
             <li><a href="">Term & Conditions</a></li>
             <li><a href="">Privacy Policy</a></li>
             <li><a href="">Help</a></li>
-            <li><a href="">Affiliates</a></li>
+            <li><a href="">Affiliatep</a></li>
           </ul> 
         </div>
         <div class="flex-item">
           <ul>
             <li><a href="">Our Location</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Contact</a></li>
+            <li><a href="">Career</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
           </ul> 
-        </div>       
+        </div>
+        <div class="flex-item">
+        </div>
         <div class="flex-item">
           <div class="social-list">
             <a href="" class="icon ion-social-twitter"></a>
@@ -236,8 +249,47 @@
     </footer>
   </div>
 </div>
-  <chat-widget style="--chat-widget-primary-color: #AF0000; --chat-widget-active-color:#AF0000 ;--chat-widget-bubble-color: #AF0000" location-id="GIJIxQ2JLf9cCGNoZtv0" prompt-avatar="https://firebasestorage.googleapis.com/v0/b/highlevel-backend.appspot.com/o/locationPhotos%2FGIJIxQ2JLf9cCGNoZtv0%2Fchat-widget-person?alt=media&token=48b9509e-30cd-4155-938c-21014fb1e426" agency-name="Infinity Automations" agency-website="theinfinitycrm.com" ></chat-widget> <script src="https://widgets.leadconnectorhq.com/loader.js" data-resources-url="https://widgets.leadconnectorhq.com/chat-widget/loader.js" > </script>
- 
+<chat-widget style="--chat-widget-primary-color: #AF0000; --chat-widget-active-color:#AF0000 ;--chat-widget-bubble-color: #AF0000" location-id="GIJIxQ2JLf9cCGNoZtv0" prompt-avatar="https://firebasestorage.googleapis.com/v0/b/highlevel-backend.appspot.com/o/locationPhotos%2FGIJIxQ2JLf9cCGNoZtv0%2Fchat-widget-person?alt=media&token=48b9509e-30cd-4155-938c-21014fb1e426" agency-name="Infinity Automations" agency-website="theinfinitycrm.com" ></chat-widget> <script src="https://widgets.leadconnectorhq.com/loader.js" data-resources-url="https://widgets.leadconnectorhq.com/chat-widget/loader.js" > </script>
+  
+<!-- jQuery -->
+
+<script src="js/jquery.min.js"></script>
+<script src="js/animsition.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/smoothscroll.js"></script>
+<script src="js/jquery.validate.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/jquery.stellar.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/isotope.pkgd.min.js"></script>
+<script src="js/imagesloaded.pkgd.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/sly.min.js"></script>
+
+
+<!-- Slider revolution -->
+<script src="js/rev-slider/jquery.themepunch.tools.min.js"></script>
+<script src="js/rev-slider/jquery.themepunch.revolution.min.js"></script>
+
+<!-- Slider revolution 5x Extensions   -->
+<script src="js/rev-slider/revolution.extension.actions.min.js"></script>
+<script src="js/rev-slider/revolution.extension.carousel.min.js"></script>
+<script src="js/rev-slider/revolution.extension.kenburn.min.js"></script>
+<script src="js/rev-slider/revolution.extension.layeranimation.min.js"></script>
+<script src="js/rev-slider/revolution.extension.migration.min.js"></script>
+<script src="js/rev-slider/revolution.extension.navigation.min.js"></script>
+<script src="js/rev-slider/revolution.extension.parallax.min.js"></script>
+<script src="js/rev-slider/revolution.extension.slideanims.min.js"></script>
+<script src="js/rev-slider/revolution.extension.video.min.js"></script>
+
+
+<!-- Scripts -->
+<script src="js/scripts.js"></script> 
+<script src="js/rev-slider-init.js"></script>
+</body>
+</html>
+
 <!-- jQuery -->
 
 <script src="js/jquery.min.js"></script>
