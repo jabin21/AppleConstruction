@@ -3630,6 +3630,7 @@ a.brand:focus{
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  align-items: center;
   -webkit-justify-content: space-between;
   -ms-flex-pack: space-between;
   justify-content: space-between;
