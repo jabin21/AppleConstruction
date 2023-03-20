@@ -2362,6 +2362,7 @@ a.brand:focus{
   height: 18rem;
   border: 0;
   text-align: center;
+  display: none;
 }
 
 .contact-info{
