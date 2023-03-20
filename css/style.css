@@ -3644,14 +3644,6 @@ a.brand:focus{
   flex: 0 0 100%;
 }
 
-.footer {
-  width: 100%;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 
 /* ------------------------------------------------------------------------------- */
 /*  8. Responsive styles
