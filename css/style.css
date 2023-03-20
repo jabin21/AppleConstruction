@@ -3632,7 +3632,7 @@ a.brand:focus{
   display: flex;
   -webkit-justify-content: space-between;
   -ms-flex-pack: space-between;
-  justify-content: center;
+  justify-content: space-between;
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
