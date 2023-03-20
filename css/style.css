@@ -3630,10 +3630,9 @@ a.brand:focus{
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  align-items: center;
   -webkit-justify-content: space-between;
   -ms-flex-pack: space-between;
-  justify-content: space-between;
+  justify-content: center;
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
